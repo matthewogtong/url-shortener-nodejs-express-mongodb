@@ -10,31 +10,33 @@
 </head>
 
 <body>
-    <h1>URL Shrinker</h1>
-    <form action="" method="POST">
-        <label for="fullURL">URL</label>
-        <input type="url" name="fullURL" id="fullURL">
-        <button type="submit">Shrink</button>
-    </form>
+    <div class="container">
+        <h1>URL Shrinker</h1>
+        <form action="" method="POST" class="my-4 form-inline">
+            <label for="fullURL"></label>
+            <input type="url" name="fullURL" id="fullURL" placeholder="URL">
+            <button type="submit">Shrink</button>
+        </form>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Full URL</th>
-                <th>Short URL</th>
-                <th>Clicks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <a href="https://matthewogtong.com">https://matthewogtong.com</a>
-                </td>
-                <td><a href="/123456">123456</a></td>
-                <td>10</td>
-            </tr>
-        </tbody>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Full URL</th>
+                    <th>Short URL</th>
+                    <th>Clicks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="https://matthewogtong.com">https://matthewogtong.com</a>
+                    </td>
+                    <td><a href="/123456">123456</a></td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
